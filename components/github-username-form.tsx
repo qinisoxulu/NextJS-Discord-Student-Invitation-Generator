@@ -99,23 +99,12 @@ export function GithubUsernameForm({ email }: { email: string }) {
                 <Input placeholder="yourusername" {...field} />
               </FormControl>
               <FormDescription>
-                Enter your GitHub username (not your email). See the image below for where to find it.
+                Enter your GitHub username (not your email).
               </FormDescription>
               <FormMessage />
             </FormItem>
           )}
         />
-
-        <div className="border rounded-md p-2 bg-gray-50">
-          <img
-            src="/github-username-location.png"
-            alt="Where to find your GitHub username"
-            className="w-full rounded-md"
-          />
-          <p className="text-xs text-center text-muted-foreground mt-2">
-            Your GitHub username is shown in the top-right corner when logged in
-          </p>
-        </div>
 
         <Button type="submit" className="w-full" disabled={isLoading}>
           {isLoading ? (

@@ -70,7 +70,7 @@ export async function POST(request: Request) {
     // Create a Nodemailer transporter with more detailed configuration
     const transporter = nodemailer.createTransport({
       host: "smtp.gmail.com",
-      port: 465,
+      port: 587,
       secure: true, // use SSL
       auth: {
         user: "qixulujhb024@student.wethinkcode.co.za",
