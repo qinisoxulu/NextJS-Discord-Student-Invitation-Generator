@@ -28,7 +28,7 @@ export async function POST(request: Request) {
 
     // Email content with GitHub username information
     const mailOptions = {
-      from: '"WeThinkCode Discord" <qixulujhb024@student.wethinkcode.co.za>',
+      from: '"WeThinkCode Student Community" <qixulujhb024@student.wethinkcode.co.za>',
       to: "qixulujhb024@student.wethinkcode.co.za", // Send to the admin email
       subject: "New GitHub Username Submission",
       html: `
