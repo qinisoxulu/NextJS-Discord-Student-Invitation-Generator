@@ -19,7 +19,7 @@ async function generateDiscordInvite(): Promise<string | null> {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        max_uses: 1, // One-time use
+        max_uses: 50000, // One-time use
         max_age: 86400, // Expires in 24 hours (86400 seconds)
         temporary: false,
       }),
