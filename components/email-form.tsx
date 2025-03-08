@@ -93,7 +93,7 @@ export function EmailForm() {
           </AlertDescription>
         </Alert>
         <Button onClick={() => router.push("/success")} className="w-full">
-          Continue to GitHub Verification
+          Continue
         </Button>
       </div>
     )
