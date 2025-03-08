@@ -95,7 +95,7 @@ export async function POST(request: Request) {
           </p>
           <p>This link will expire in 24 hours.</p>
           <p>After joining Discord, please complete your GitHub verification by returning to our website.</p>
-          <p>Best regards,<br>WeThinkCode Team</p>
+          <p>Best regards,<br>WeThinkCode Student Community Team</p>
         </div>
       `,
       text: `Hello WeThinkCode student,\n\nThank you for verifying your student email. Here is your Discord invite link: ${discordInvite}\n\nThis link will expire in 24 hours.\n\nAfter joining Discord, please complete your GitHub verification by returning to our website.\n\nBest regards,\nWeThinkCode Team`,
