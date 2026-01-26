@@ -1,4 +1,4 @@
-# Student Email Verification
+# Discord Student Invitation Generator
 
 This project is a web application designed to handle student email verification and related processes. It is built using modern web technologies and frameworks.
 
